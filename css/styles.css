@@ -317,7 +317,7 @@ max-width: 496px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.sect-our-team-item-icon-link:hover .sect-our-team-item-icon-link:focus {
+.sect-our-team-item-icon-link:focus {
     background-color: #404bbf;
 }
 
