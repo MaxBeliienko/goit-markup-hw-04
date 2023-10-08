@@ -415,12 +415,16 @@ max-width: 496px;
 
 .footer-cont {
     display: flex;
-    gap: 120px;
+    align-items: baseline;
 }
 
 .footer {
     background-color: #2E2F42;
     padding: 100px 0;
+}
+
+.footer-first-div {
+    margin-right: 120px;
 }
 
 .footer-logo {
@@ -457,12 +461,42 @@ max-width: 496px;
 
 .footer-icons-text {
     color: #FFF;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
 }
 
 .footer-icons-list {
     display: flex;
+    gap: 16px;
 }
+
+.footer-icons-item {
+    width: 40px;
+        height: 40px;
+}
+
+.footer-icons-link {
+    display: flex;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icons-link:hover {
+    background-color: #31d0aa;
+}
+
+.footer-icons-link:focus {
+    background-color: #31d0aa;
+}
+
+.footer-socicons {
+    fill: #f4f4fd;
+}
+
