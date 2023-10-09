@@ -107,6 +107,7 @@ img {
     position: absolute;
     color: #404BBF;
     left: 0;
+    width: 100%;
     bottom: -1px;
     height: 4px;
     background-color: #404bbf;
